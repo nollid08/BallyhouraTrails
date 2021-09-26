@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:ballyhoura_mtb/views/widgets/map.dart';
 
 class Home extends StatelessWidget {
   @override
@@ -7,6 +8,7 @@ class Home extends StatelessWidget {
       appBar: AppBar(
         title: Center(child: Text('Ballyhoura Trails')),
       ),
+      body: Map(),
     );
   }
 }
