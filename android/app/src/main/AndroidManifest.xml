@@ -1,5 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.ballyhoura_mtb">
+  <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/> 
+  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
    <application
         android:label="ballyhoura_mtb"
         android:icon="@mipmap/ic_launcher">

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:ballyhoura_mtb/views/widgets/map.dart';
 
-class Home extends StatelessWidget {
+class MapScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

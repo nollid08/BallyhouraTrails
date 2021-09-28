@@ -12,6 +12,8 @@ class Map extends StatelessWidget {
       onMapCreated: (GoogleMapController controller) {
         context.read<MapController>().controller.complete(controller);
       },
+      myLocationEnabled: true,
+      myLocationButtonEnabled: true,
     );
   }
 }
